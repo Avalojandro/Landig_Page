@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Baloo+Da|Lalezar&display=swap');
+
+
+body
+{
+    height: 1920px;
+    background-image:
+    linear-gradient( to top right,#2d7aee, #180255);
+}
+
+.logo
+{
+
+    font-size: 25px;
+    color: #2d7aee;
+    font-weight: bolder;
+}
+
+span
+{
+    color: #ffffff;   
+}
+
+span:hover
+{
+    transition: background .5s, color .5s;
+    color: #44d0fa;
+}
+
+.negrita
+{
+    font-weight: bolder;
+}
+
+.boton
+{
+    font-family: 'Montserrat', sans-serif;
+    width: 110px;
+    padding: 6px;
+    border-radius: 10px;
+    border: none;
+    transition: background .5s, color .5s;
+}
+
+.boton:hover{
+    background-color: aqua;
+}
+
+.anchura
+{
+width: 800px;
+background-color: #140255;
+}
+
+.imagen
+{
+    border-radius: 30px;
+}
+
+
+.foco
+{
+    font-weight: bolder;
+     font-size: 45px;
+}
+
+.lorem
+{
+    text-align: center;
+    color: #6ea1ee;
+}
+
+.click
+{
+    color: #ffffff;
+    font-weight: bold;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: none;
+    border-radius: 20px;
+    background-image:
+    linear-gradient( to top right,#2d7aee, #180255);
+    transition: background .5s, color .5s;
+    box-shadow: 0 8px 8px 0 #0a0b3d,0 8px 8px 0 #250e33;
+}
+
+.click:hover
+{
+    background-image:
+    linear-gradient( to top right,#2d30ee, #4d0377);
+    box-shadow: 0 8px 8px 0 #0a0b3d,0 8px 8px 0 #250e33;
+}
+
